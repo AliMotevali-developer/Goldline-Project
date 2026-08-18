@@ -7,8 +7,7 @@
 ## 📸 تصاویر پروژه
 
 ### صفحه‌ی ورود
-![Login](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/login.png)
-
+![صفحه ورود](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/login.png)
 ### صفحه‌ی داشبورد
 ![Dashboard](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/dashboard.png)
 
