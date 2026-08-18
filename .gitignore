@@ -1,0 +1,5 @@
+config.php
+gold_cache.json
+.DS_Store
+Thumbs.db
+*.log
