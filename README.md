@@ -1,3 +1,68 @@
+<div align="center">
+
+# 🪙 Goldline
+
+**Real-Time Online Gold Trading Simulator & Digital Wallet Platform**
+
+[English](#-english) • [فارسی](#-فارسی)
+
+</div>
+
+---
+
+<a name="-english"></a>
+## 🇬🇧 English
+
+**Goldline** is a full-stack online gold trading simulator and digital wallet built with **PHP 8 (OOP & PDO)** and **MySQL**. It integrates real-time live market prices via financial APIs and offers a seamless, reactive user interface powered by modern JavaScript (Fetch API) without full-page reloads.
+
+### 📸 Screenshots
+
+| Login Page | Dashboard | Transaction History |
+| :---: | :---: | :---: |
+| ![Login](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/login.png) | ![Dashboard](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/dashboard.png) | ![Transactions](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/dashboard_transaction.png) |
+
+### ✨ Features
+- 📡 **Live Market Data:** Direct API integration for real-time gold rates, supported by an automated **5-minute smart caching layer** to optimize network requests and prevent rate-limiting.
+- 🔐 **Secure Authentication:** User registration and session management leveraging strong `Bcrypt` password hashing and secure session handling.
+- 💳 **Virtual Payment Gateway:** Integrated test payment gateway simulator for real-time fiat balance deposits.
+- ⚡ **Asynchronous UX (AJAX/Fetch API):** Seamless execution of buy/sell operations, wallet funding, and transaction feed updates without page reloads.
+- 📊 **Transaction Ledger:** Scrollable real-time transaction ledger monitoring user trade history.
+- 🛡️ **Backend Security:** Robust database transactions and strict parameterized queries using `PDO` prepared statements to mitigate SQL Injection.
+- 🎨 **Responsive UI:** Clean, modern interface designed with **Bootstrap 5.3** and custom styling.
+
+### 🛠️ Tech Stack
+- **Backend:** PHP 8.x (Object-Oriented Programming & PDO)
+- **Database:** MySQL
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+ / Fetch API)
+- **UI Framework & Libraries:** Bootstrap 5.3, cURL
+
+### 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/AliMotevali-developer/Goldline-Project.git](https://github.com/AliMotevali-developer/Goldline-Project.git)
+
+   Move to web server directory:
+Move the cloned project to your local server directory (e.g., htdocs in XAMPP/Laragon or www in WAMP).
+
+
+Setup Database:
+Create a new MySQL database (e.g., goldline).
+Import the provided SQL dump file (h398260_goldline.sql).
+
+Configure Database Connection:
+Open config.php and configure your credentials:
+private $db_name = 'goldline';
+private $username = 'root';
+private $password = '';
+
+Run Application:
+Open your browser and navigate to:
+http://localhost/Goldline-Project/index.php
+
+
+
+
 # 🪙 Goldline - پلتفرم شبیه‌ساز معاملات آنلاین طلا
 
 **گلدلاین (Goldline)** یک مینی‌صرافی و پلتفرم شبیه‌ساز برای خرید و فروش آنلاین طلا (بر پایه میلی‌گرم) است. این پروژه با استفاده از معماری تمیز **PHP & MySQL** توسعه داده شده و قیمت لحظه‌ای طلا را به صورت زنده از بازار واقعی دریافت می‌کند. هدف از توسعه این پلتفرم، ارائه یک نمونه‌کار قدرتمند از تلفیق بک‌اند ایمن با فرانت‌اند تعاملی (بدون رفرش) است.
