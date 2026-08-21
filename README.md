@@ -61,23 +61,17 @@ Open your browser and navigate to:
 http://localhost/Goldline-Project/index.php
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# 🪙 Goldline - پلتفرم شبیه‌ساز معاملات آنلاین طلا
-
-**گلدلاین (Goldline)** یک مینی‌صرافی و پلتفرم شبیه‌ساز برای خرید و فروش آنلاین طلا (بر پایه میلی‌گرم) است. این پروژه با استفاده از معماری تمیز **PHP & MySQL** توسعه داده شده و قیمت لحظه‌ای طلا را به صورت زنده از بازار واقعی دریافت می‌کند. هدف از توسعه این پلتفرم، ارائه یک نمونه‌کار قدرتمند از تلفیق بک‌اند ایمن با فرانت‌اند تعاملی (بدون رفرش) است.
+🇮🇷 فارسی
+گلدلاین (Goldline) یک پلتفرم شبیه‌ساز معاملات آنلاین طلا (بر پایه میلی‌گرم) و کیف پول دیجیتال است. این پروژه با بهره‌گیری از معماری تمیز PHP شی‌ءگرا (OOP & PDO) و MySQL توسعه یافته و نرخ لحظه‌ای طلا را به صورت زنده از بازارهای مالی دریافت می‌کند..
 
 ---
 
 ## 📸 تصاویر پروژه
-
-### صفحه‌ی ورود
-![صفحه ورود](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/login.png)
-### صفحه‌ی داشبورد
-![Dashboard](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/dashboard.png)
-
-### تاریخچه معاملات
-![Transactions](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/dashboard_transaction.png)
+صفحه‌ی ورود,داشبورد کاربری,تاریخچه معاملات
+,,
 
 ---
 
