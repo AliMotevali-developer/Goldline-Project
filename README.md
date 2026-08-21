@@ -70,7 +70,9 @@ http://localhost/Goldline-Project/index.php
 ---
 
 ## 📸 تصاویر پروژه
-صفحه‌ی ورود,داشبورد کاربری,تاریخچه معاملات
+|  | Dashboard | Transaction History |
+| :---: | :---: | :---: |
+| ![Login](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/login.png) | ![Dashboard](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/dashboard.png) | ![Transactions](https://raw.githubusercontent.com/AliMotevali-developer/Goldline-Project/main/dashboard_transaction.png) |
 ,,
 
 ---
